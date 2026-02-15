@@ -22,7 +22,7 @@ class MemoryCompressor:
         self.memory_path = Path(self.workspace_path) / "memory"
         self.archive_path = self.memory_path / "archive"
         self.weekly_path = self.memory_path / "weekly"
-        self.long_term_memory_path = self.memory_path_path / "long_term_memory.json"
+        self.long_term_memory_path = self.memory_path / "long_term_memory.json"
         
         # Ensure directories exist
         self.archive_path.mkdir(parents=True, exist_ok=True)

@@ -270,7 +270,7 @@ def main():
     parser.add_argument("--extract", action="store_true", help="Extract all facts")
     parser.add_argument("--search", type=str, help="Search facts")
     parser.add_argument("--category", type=str, help="Filter by category")
-    parser.add_argument("--summary", action="store_true", show facts summary")
+    parser.add_argument("--summary", action="store_true", help="Show facts summary")
     parser.add_argument("--workspace", type=str, help="Workspace path")
     
     args = parser.parse_args()
