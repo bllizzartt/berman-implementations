@@ -234,7 +234,7 @@ def main():
     parser.add_argument("query", nargs="?", help="Search query")
     parser.add_argument("--limit", type=int, default=10, help="Max results")
     parser.add_argument("--recent", type=int, help="Show recent memories (days)")
-    parser.add_argument("--stats", action="store_true", show memory stats")
+    parser.add_argument("--stats", action="store_true", help="Show memory stats")
     parser.add_argument("--date-range", nargs=2, metavar=("START", "END"), help="Date range filter")
     parser.add_argument("--workspace", type=str, help="Workspace path")
     
